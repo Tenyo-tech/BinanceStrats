@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using BinanceStrats;
+
+var engine = new Engine();
+
+await engine.StartAsync();
