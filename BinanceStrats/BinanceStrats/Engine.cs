@@ -8,6 +8,7 @@ namespace BinanceStrats
     public class Engine
     {
         private List<KLineFiveMinute> last1000KlinesApiCall = new List<KLineFiveMinute>();
+        private List<Position> positionsCollection = new List<Position>();
 
         public Wallet Wallet = new Wallet
         {
